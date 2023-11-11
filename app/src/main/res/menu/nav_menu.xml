@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Pincipal"
+            android:background="#FFFFFF"/>
+
+        <item
+            android:id="@+id/nav_catalogo"
+            android:title="Catálogo Repuestos"/>
+        <item
+            android:id="@+id/nav_etiquetadoras"
+            android:title="Etiquetadoras PET"/>
+        <item
+            android:id="@+id/nav_llenadoras"
+            android:title="Llenadoras PET"/>
+
+    </group>
+</menu>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333333"
+    tools:context=".CatalogoRepuestos.CatalogoFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="8dp">
+
+            <EditText
+                android:id="@+id/edt_srch"
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:layout_weight="0"
+                android:background="@drawable/edittext_background"
+                android:duplicateParentState="false"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Código SAP"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textColorHint="#B4000000"
+                android:textCursorDrawable="@drawable/crursor_edittext"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/searchButton"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="0"
+                android:backgroundTint="#333333"
+                android:onClick="search_view_button"
+                app:srcCompat="@drawable/icon_search"
+                app:tint="#FFFFFF" />
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+</RelativeLayout>

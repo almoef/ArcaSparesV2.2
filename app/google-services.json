@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "862222783699",
+    "firebase_url": "https://databasearca-default-rtdb.firebaseio.com",
+    "project_id": "databasearca",
+    "storage_bucket": "databasearca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862222783699:android:401a575bc703a07895b026",
+        "android_client_info": {
+          "package_name": "com.example.arcasparesv21"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8yxBBeLhRz8wzulyD9eMI9ZUQEEF29RE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862222783699:android:4f21a80c6950f1f995b026",
+        "android_client_info": {
+          "package_name": "com.example.cagalogorepuestos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8yxBBeLhRz8wzulyD9eMI9ZUQEEF29RE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
